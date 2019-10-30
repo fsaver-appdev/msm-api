@@ -1,0 +1,8 @@
+  
+image: jelaniwoods/appdev-base
+
+tasks:
+  - init: bin/setup
+ports:
+  - port: 3000
+    onOpen: open-preview
